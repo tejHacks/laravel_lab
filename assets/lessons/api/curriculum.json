@@ -1,0 +1,173 @@
+{
+  "course": "api",
+  "title": "Laravel APIs",
+  "tagline": "Build production-grade REST APIs for mobile and web apps, from first route to advanced topics.",
+  "modules": [
+    {
+      "id": "foundations",
+      "title": "API Foundations",
+      "level": "beginner",
+      "icon": "hub",
+      "color": "#0E7490",
+      "description": "What APIs are, HTTP, JSON and your first endpoints.",
+      "lessons": [
+        {
+          "slug": "what-is-an-api",
+          "title": "What is an API?",
+          "summary": "How apps talk to servers, and why your mobile app needs one.",
+          "minutes": 6,
+          "questions": 2
+        },
+        {
+          "slug": "http-and-json",
+          "title": "HTTP Methods, Status Codes & JSON",
+          "summary": "The vocabulary every API developer must know.",
+          "minutes": 9,
+          "questions": 4
+        },
+        {
+          "slug": "first-api-routes",
+          "title": "Your First API Routes",
+          "summary": "install:api, routes/api.php and returning JSON.",
+          "minutes": 8,
+          "questions": 3
+        },
+        {
+          "slug": "json-responses",
+          "title": "JSON Responses",
+          "summary": "Control status codes, headers and the shape of your responses.",
+          "minutes": 7,
+          "questions": 2
+        }
+      ]
+    },
+    {
+      "id": "rest",
+      "title": "Building REST APIs",
+      "level": "intermediate",
+      "icon": "api",
+      "color": "#0369A1",
+      "description": "Design, CRUD controllers, resources, pagination and filtering.",
+      "lessons": [
+        {
+          "slug": "rest-design",
+          "title": "Designing a REST API",
+          "summary": "URLs, nouns, nesting and conventions that make APIs easy to use.",
+          "minutes": 8,
+          "questions": 2
+        },
+        {
+          "slug": "api-controllers",
+          "title": "API Resource Controllers & Validation",
+          "summary": "Build full CRUD endpoints with apiResource and form requests.",
+          "minutes": 11,
+          "questions": 3
+        },
+        {
+          "slug": "api-resources",
+          "title": "API Resources (Transformers)",
+          "summary": "Control exactly what JSON your API returns.",
+          "minutes": 10,
+          "questions": 3
+        },
+        {
+          "slug": "pagination-filtering",
+          "title": "Pagination, Filtering & Sorting",
+          "summary": "Let clients ask for exactly the data they need.",
+          "minutes": 9,
+          "questions": 3
+        }
+      ]
+    },
+    {
+      "id": "api-auth",
+      "title": "Authentication",
+      "level": "intermediate",
+      "icon": "key",
+      "color": "#7C3AED",
+      "description": "Sanctum tokens, abilities, policies and SPA auth.",
+      "lessons": [
+        {
+          "slug": "sanctum-tokens",
+          "title": "Token Authentication with Sanctum",
+          "summary": "Register, log in and protect endpoints for mobile apps.",
+          "minutes": 12,
+          "questions": 3
+        },
+        {
+          "slug": "abilities-and-policies",
+          "title": "Token Abilities & Policies",
+          "summary": "Limit what each token and each user can do.",
+          "minutes": 9,
+          "questions": 2
+        },
+        {
+          "slug": "spa-authentication",
+          "title": "SPA Authentication (Cookies)",
+          "summary": "Authenticate a React or Vue front end on your own domain.",
+          "minutes": 7,
+          "questions": 2
+        }
+      ]
+    },
+    {
+      "id": "pro",
+      "title": "Advanced APIs",
+      "level": "advanced",
+      "icon": "workspace_premium",
+      "color": "#BE123C",
+      "description": "Errors, rate limits, versioning, performance, testing and docs.",
+      "lessons": [
+        {
+          "slug": "error-handling",
+          "title": "Error Handling for APIs",
+          "summary": "Consistent, helpful JSON errors.",
+          "minutes": 8,
+          "questions": 2
+        },
+        {
+          "slug": "rate-limiting",
+          "title": "Rate Limiting",
+          "summary": "Protect your API from abuse and runaway clients.",
+          "minutes": 7,
+          "questions": 2
+        },
+        {
+          "slug": "versioning",
+          "title": "Versioning Your API",
+          "summary": "Evolve your API without breaking existing apps.",
+          "minutes": 7,
+          "questions": 1
+        },
+        {
+          "slug": "caching-performance",
+          "title": "Caching & Performance",
+          "summary": "Make your API fast under load.",
+          "minutes": 9,
+          "questions": 2
+        },
+        {
+          "slug": "api-testing",
+          "title": "Testing APIs",
+          "summary": "Write fast, reliable tests for every endpoint.",
+          "minutes": 10,
+          "questions": 2
+        },
+        {
+          "slug": "consuming-apis",
+          "title": "Calling Other APIs (HTTP Client)",
+          "summary": "Use Laravel's HTTP client to talk to payment, weather or any third-party API.",
+          "minutes": 8,
+          "questions": 2
+        },
+        {
+          "slug": "api-documentation",
+          "title": "Documenting Your API",
+          "summary": "Make your API easy for app developers (and future you) to use.",
+          "minutes": 6,
+          "questions": 1
+        }
+      ]
+    }
+  ]
+}

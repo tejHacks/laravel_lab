@@ -1,0 +1,83 @@
+{
+  "course": "advanced",
+  "title": "Advanced Laravel",
+  "tagline": "How Laravel works inside, and how to structure, secure and grow serious apps.",
+  "modules": [
+    {
+      "id": "internals",
+      "title": "Inside Laravel",
+      "level": "advanced",
+      "icon": "settings_suggest",
+      "color": "#475569",
+      "description": "The service container, providers, facades and collections.",
+      "lessons": [
+        {
+          "slug": "service-container",
+          "title": "The Service Container",
+          "summary": "How Laravel builds objects for you, and how to customise it.",
+          "minutes": 10,
+          "questions": 2
+        },
+        {
+          "slug": "providers-and-facades",
+          "title": "Service Providers & Facades",
+          "summary": "Where apps are configured, and how static-looking calls work.",
+          "minutes": 7,
+          "questions": 2
+        },
+        {
+          "slug": "collections",
+          "title": "Collections in Depth",
+          "summary": "Laravel's most-used power tool for working with data.",
+          "minutes": 9,
+          "questions": 2
+        }
+      ]
+    },
+    {
+      "id": "beyond",
+      "title": "Beyond the Basics",
+      "level": "advanced",
+      "icon": "auto_awesome",
+      "color": "#B45309",
+      "description": "Front-ends, real-time, architecture, security and the ecosystem.",
+      "lessons": [
+        {
+          "slug": "frontends",
+          "title": "Front-ends: Blade, Livewire & Inertia",
+          "summary": "Choose how to build the UI of a Laravel app.",
+          "minutes": 8,
+          "questions": 2
+        },
+        {
+          "slug": "broadcasting",
+          "title": "Real-time with Broadcasting & Reverb",
+          "summary": "Push live updates to browsers and apps over WebSockets.",
+          "minutes": 8,
+          "questions": 2
+        },
+        {
+          "slug": "architecture",
+          "title": "Structuring Bigger Apps",
+          "summary": "Actions, services, DTOs and keeping controllers thin.",
+          "minutes": 9,
+          "questions": 2
+        },
+        {
+          "slug": "security-checklist",
+          "title": "Security Checklist",
+          "summary": "The habits that keep Laravel apps safe.",
+          "minutes": 8,
+          "questions": 2
+        },
+        {
+          "slug": "ecosystem",
+          "title": "The Laravel Ecosystem",
+          "summary": "Official tools and packages worth knowing next.",
+          "minutes": 6,
+          "questions": 2
+        }
+      ]
+    }
+  ]
+}

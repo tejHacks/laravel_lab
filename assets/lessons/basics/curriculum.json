@@ -1,0 +1,287 @@
+{
+  "course": "basics",
+  "title": "Laravel Basics",
+  "tagline": "From zero to confident Laravel developer: routing, Blade, Eloquent, auth, queues and testing.",
+  "modules": [
+    {
+      "id": "getting-started",
+      "title": "Getting Started",
+      "level": "beginner",
+      "icon": "rocket_launch",
+      "color": "#F05340",
+      "description": "What Laravel is, installing it, and finding your way around a project.",
+      "lessons": [
+        {
+          "slug": "what-is-laravel",
+          "title": "What is Laravel?",
+          "summary": "The PHP framework for web apps and APIs, and why developers love it.",
+          "minutes": 6,
+          "questions": 3
+        },
+        {
+          "slug": "installing-laravel",
+          "title": "Installing Laravel",
+          "summary": "PHP, Composer, the Laravel installer, Herd, and running your first app.",
+          "minutes": 9,
+          "questions": 3
+        },
+        {
+          "slug": "project-structure",
+          "title": "Project Structure",
+          "summary": "A guided tour of every important folder in a Laravel app.",
+          "minutes": 8,
+          "questions": 3
+        },
+        {
+          "slug": "artisan-and-lifecycle",
+          "title": "Artisan & the Request Lifecycle",
+          "summary": "The command-line tool you will use every day, and what happens on each request.",
+          "minutes": 7,
+          "questions": 3
+        }
+      ]
+    },
+    {
+      "id": "routing",
+      "title": "Routing & Controllers",
+      "level": "beginner",
+      "icon": "alt_route",
+      "color": "#E0702E",
+      "description": "Map URLs to code and organise logic in controllers.",
+      "lessons": [
+        {
+          "slug": "routing-basics",
+          "title": "Routing Basics",
+          "summary": "Map URLs and HTTP methods to code.",
+          "minutes": 8,
+          "questions": 3
+        },
+        {
+          "slug": "route-parameters",
+          "title": "Route Parameters & Named Routes",
+          "summary": "Dynamic URLs, optional parameters, constraints and URL helpers.",
+          "minutes": 8,
+          "questions": 3
+        },
+        {
+          "slug": "controllers",
+          "title": "Controllers",
+          "summary": "Organise request-handling logic into classes.",
+          "minutes": 8,
+          "questions": 3
+        },
+        {
+          "slug": "resource-controllers",
+          "title": "Resource Controllers",
+          "summary": "The 7 standard CRUD routes with one line.",
+          "minutes": 7,
+          "questions": 3
+        }
+      ]
+    },
+    {
+      "id": "blade",
+      "title": "Blade Views",
+      "level": "beginner",
+      "icon": "web",
+      "color": "#D9822B",
+      "description": "Templates, layouts, components and forms.",
+      "lessons": [
+        {
+          "slug": "blade-basics",
+          "title": "Blade Templates",
+          "summary": "Laravel's templating engine: echoing data, conditionals and loops.",
+          "minutes": 9,
+          "questions": 3
+        },
+        {
+          "slug": "layouts-and-components",
+          "title": "Layouts & Components",
+          "summary": "Reuse HTML with layouts, Blade components, slots and props.",
+          "minutes": 10,
+          "questions": 3
+        },
+        {
+          "slug": "forms-and-csrf",
+          "title": "Forms & CSRF Protection",
+          "summary": "Send data from HTML forms safely and keep old input after errors.",
+          "minutes": 8,
+          "questions": 3
+        }
+      ]
+    },
+    {
+      "id": "database",
+      "title": "Database & Eloquent",
+      "level": "beginner",
+      "icon": "storage",
+      "color": "#2E86AB",
+      "description": "Migrations, models, CRUD, relationships and queries.",
+      "lessons": [
+        {
+          "slug": "databases-and-migrations",
+          "title": "Databases & Migrations",
+          "summary": "Version-control your database schema with migrations.",
+          "minutes": 10,
+          "questions": 3
+        },
+        {
+          "slug": "eloquent-models",
+          "title": "Eloquent Models",
+          "summary": "Represent database tables as PHP classes, the Laravel 13 way.",
+          "minutes": 10,
+          "questions": 3
+        },
+        {
+          "slug": "eloquent-crud",
+          "title": "CRUD with Eloquent",
+          "summary": "Create, read, update and delete records.",
+          "minutes": 9,
+          "questions": 3
+        },
+        {
+          "slug": "relationships",
+          "title": "Eloquent Relationships",
+          "summary": "hasMany, belongsTo, belongsToMany and eager loading.",
+          "minutes": 11,
+          "questions": 3
+        },
+        {
+          "slug": "factories-and-seeders",
+          "title": "Factories & Seeders",
+          "summary": "Generate realistic fake data for development and tests.",
+          "minutes": 7,
+          "questions": 2
+        },
+        {
+          "slug": "querying-and-pagination",
+          "title": "Querying, Scopes & Pagination",
+          "summary": "Filter, sort, reuse queries with scopes, and paginate results.",
+          "minutes": 9,
+          "questions": 3
+        }
+      ]
+    },
+    {
+      "id": "validation",
+      "title": "Validation & Sessions",
+      "level": "intermediate",
+      "icon": "fact_check",
+      "color": "#2E9E5B",
+      "description": "Trust nothing: validate input and remember state.",
+      "lessons": [
+        {
+          "slug": "validation",
+          "title": "Validation",
+          "summary": "Never trust user input. Validate it.",
+          "minutes": 10,
+          "questions": 3
+        },
+        {
+          "slug": "form-requests",
+          "title": "Form Requests",
+          "summary": "Move validation and authorization into dedicated classes.",
+          "minutes": 8,
+          "questions": 2
+        },
+        {
+          "slug": "sessions-and-flash",
+          "title": "Sessions & Flash Messages",
+          "summary": "Remember data between requests and show one-time messages.",
+          "minutes": 6,
+          "questions": 2
+        }
+      ]
+    },
+    {
+      "id": "auth",
+      "title": "Auth & Security",
+      "level": "intermediate",
+      "icon": "lock",
+      "color": "#8E44AD",
+      "description": "Log users in, protect routes and control permissions.",
+      "lessons": [
+        {
+          "slug": "authentication",
+          "title": "Authentication",
+          "summary": "Register, log in and log out users, by hand and with starter kits.",
+          "minutes": 12,
+          "questions": 3
+        },
+        {
+          "slug": "middleware",
+          "title": "Middleware",
+          "summary": "Filter and modify requests before they reach your controllers.",
+          "minutes": 8,
+          "questions": 3
+        },
+        {
+          "slug": "authorization",
+          "title": "Authorization: Gates & Policies",
+          "summary": "Decide what a logged-in user is allowed to do.",
+          "minutes": 9,
+          "questions": 3
+        }
+      ]
+    },
+    {
+      "id": "toolkit",
+      "title": "The Intermediate Toolkit",
+      "level": "intermediate",
+      "icon": "construction",
+      "color": "#C0392B",
+      "description": "Uploads, mail, queues, events, commands, testing and deployment.",
+      "lessons": [
+        {
+          "slug": "file-uploads",
+          "title": "File Uploads & Storage",
+          "summary": "Accept uploads, store them on disks, and serve them.",
+          "minutes": 8,
+          "questions": 2
+        },
+        {
+          "slug": "mail-and-notifications",
+          "title": "Mail & Notifications",
+          "summary": "Send emails and multi-channel notifications.",
+          "minutes": 9,
+          "questions": 2
+        },
+        {
+          "slug": "queues-and-jobs",
+          "title": "Queues & Jobs",
+          "summary": "Run slow work in the background so pages stay fast.",
+          "minutes": 9,
+          "questions": 3
+        },
+        {
+          "slug": "events-and-listeners",
+          "title": "Events & Listeners",
+          "summary": "Decouple your code by reacting to things that happened.",
+          "minutes": 7,
+          "questions": 2
+        },
+        {
+          "slug": "artisan-commands",
+          "title": "Custom Commands & Scheduling",
+          "summary": "Write your own Artisan commands and run them on a schedule.",
+          "minutes": 8,
+          "questions": 2
+        },
+        {
+          "slug": "testing",
+          "title": "Testing",
+          "summary": "Feature and unit tests with PHPUnit or Pest.",
+          "minutes": 10,
+          "questions": 3
+        },
+        {
+          "slug": "deployment",
+          "title": "Deployment",
+          "summary": "Put your Laravel app on the internet safely.",
+          "minutes": 9,
+          "questions": 3
+        }
+      ]
+    }
+  ]
+}
